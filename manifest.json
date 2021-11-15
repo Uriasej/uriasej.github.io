@@ -1,12 +1,12 @@
 {
-	"name":"Idle Game",
-	"version":"0.0",
+	"name":"Breakout Web App Test",
+	"version":"0.1",
 	"manifest_version":2,
-	"description":"A Basic Idle Game made by Eden Urias",
+	"description":"A Basic Breakout Game Stolen by Eden Urias",
 	"app":{
-		"urls":["https://cavocraft.ml"],
+		"urls":["http://uriasej.github.io"],
 		"launch":{
-			"web_url":"https://cavocraft.ml"
+			"web_url":"http://uriasej.github.io"
 		}
 	
 	},
