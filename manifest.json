@@ -1,0 +1,16 @@
+{
+	"name":"Idle Game",
+	"version":"0.0",
+	"manifest_version":2,
+	"description":"A Basic Idle Game made by Eden Urias",
+	"app":{
+		"urls":["https://cavocraft.ml"],
+		"launch":{
+			"web_url":"https://cavocraft.ml"
+		}
+	
+	},
+	"icons":{
+	
+	}
+}
