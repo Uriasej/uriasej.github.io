@@ -7,6 +7,17 @@
     <body>
         <canvas id="canvas"></canvas>
         <script>
+            (function() {
+  const canvas = document.getElementById('canvas');
+  const context = canvas.getContext('2d');
+
+  // resize the canvas to fill browser window dynamically
+  window.addEventListener('resize', resizeCanvas, false);
+        
+  function resizeCanvas() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+                
             // Global Variables
     var DIRECTION = {
         IDLE: 0,
@@ -368,6 +379,16 @@
     
     var Pong = Object.assign({}, Game);
     Pong.initialize();
+    drawStuff(); 
+  }
+  
+  resizeCanvas();
+        
+  function drawStuff() {
+    // do your drawing stuff here
+  }
+})();
+
         </script>
     </body>
 </html>
