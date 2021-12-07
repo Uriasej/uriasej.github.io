@@ -1,0 +1,66 @@
+<html>
+  <head>
+        <title>Hello</title>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    </head>
+    <body>
+        
+		<canvas id="canvas" width="640" height="480">
+			<p>Your browser does not support the canvas element.</p>
+		</canvas>
+        
+        <!-- Enjine Includes -->
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/Enjine/core.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/Enjine/gameCanvas.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/Enjine/keyboardInput.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/Enjine/resources.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/Enjine/drawable.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/Enjine/state.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/Enjine/gameTimer.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/Enjine/camera.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/Enjine/drawableManager.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/Enjine/sprite.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/Enjine/spriteFont.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/Enjine/frameSprite.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/Enjine/animatedSprite.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/Enjine/collideable.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/Enjine/application.js"></script>
+        
+        <!-- Actual game code -->
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/code/setup.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/code/spriteCuts.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/code/level.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/code/backgroundGenerator.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/code/backgroundRenderer.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/code/improvedNoise.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/code/notchSprite.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/code/character.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/code/levelRenderer.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/code/levelGenerator.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/code/spriteTemplate.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/code/enemy.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/code/fireball.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/code/sparkle.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/code/coinAnim.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/code/mushroom.js"></script>
+		<script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/code/particle.js"></script>
+		<script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/code/fireFlower.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/code/bulletBill.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/code/flowerEnemy.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/code/shell.js"></script>
+        
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/code/titleState.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/code/loadingState.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/code/loseState.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/code/winState.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/code/mapState.js"></script>
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/code/levelState.js"></script>
+        
+        <script src="https://openhtml5games.github.io/games-mirror/dist/mariohtml5/code/music.js"></script>
+
+        <script>$(document).ready(function() { new Enjine.Application().Initialize(new Mario.LoadingState(), 320, 240) });</script>
+	
+
+    
+  </body>
+</html>
