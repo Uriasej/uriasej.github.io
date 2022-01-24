@@ -29,8 +29,7 @@
 /* Features section styles */
 .features-section {
     height: 400px;
-    background-image: url(../images/backgrounds/Multiply.jpg);
-    background-color: #cea135;
+    background-color: #78acff;
     border-top: 10px solid white;
     color: #11122b;
     display: flex;
